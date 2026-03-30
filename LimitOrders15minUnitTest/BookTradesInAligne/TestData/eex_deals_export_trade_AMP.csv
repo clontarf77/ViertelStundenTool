@@ -1,0 +1,4 @@
+OT 2020-06-22;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+Trader Id;TSO;EIC;B/S;Product;Contract;Qty;Prc;Curr;Act;Text;State;Order No;Trade No;P/O;Date/Time;BG;AggrInd;Self
+TRD001;AMP;10YDE-RWENET---I;B;Intraday_Quarter_Hour_Power;20201216 09:30-20201216 09:45;0,1;46;EUR;P;VSK;ACTIVE;11163927167;1143224326;O;16.12.2020 08:52;11XMVVTRADING--1;Y;No

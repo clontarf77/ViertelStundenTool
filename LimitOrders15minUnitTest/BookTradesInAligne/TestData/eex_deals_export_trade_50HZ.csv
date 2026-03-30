@@ -1,0 +1,4 @@
+OT 2020-06-22;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+Trader Id;TSO;EIC;B/S;Product;Contract;Qty;Prc;Curr;Act;Text;State;Order No;Trade No;P/O;Date/Time;BG;AggrInd;Self
+TRD001;50HzT;10YDE-VE-------2;B;Intraday_Quarter_Hour_Power;20201216 09:30-20201216 09:45;1,8;45,81;EUR;P;VSK;ACTIVE;11163927173;1143224328;O;16.12.2020 08:52;11XMVVTRADING--1;Y;No

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE importFile SYSTEM "importer.dtd">
+
+<importFile template="default" sysdate="24/06/2020" dateFmt="DD/MM/YYYY" impLogin="RFSR" impPcrypt="****">
+<tradeImport type="PWSHAPE">
+<audit>NEW</audit>
+<tradetype2>G</tradetype2>
+<buysell>B</buysell>
+<status></status>
+<blktpl>POWER SHAPES</blktpl>
+<mkt1>AMP</mkt1>
+<comp1>AMP</comp1>
+<mkt2>FX</mkt2>
+<comp2>EUR</comp2>
+<firmtype>F</firmtype>
+<hflag>H</hflag>
+<unit>W</unit>
+<book>INTR</book>
+<cpty>KVPC</cpty>
+<contract>DLV</contract>
+<currency>EUR</currency>
+<tgroup1>00001</tgroup1>
+<tgroup2>00005</tgroup2>
+<tgroup3>00000</tgroup3>
+<util1>A</util1>
+<memo1>DealImportTestFromViertelStdTool1</memo1>
+<memo2>DealImportTestFromViertelStdTool2</memo2>
+<trader>RFSR</trader>
+<a5tpl>HRLY_POWER_SHAPE</a5tpl>
+<datestart>18.06.2019</datestart>
+<dateend>18.06.2019</dateend>
+<shapesize>55</shapesize>
+<shapedata>9!R!@!Q!R!b!R!2A!e!U!n!b&quot;(-!b?!bQ!bc!bu!b&quot;/!b&quot;A!b!R!S!R</shapedata>
+<module name="POWERNOMS">
+<lebalgrp>AMP-MVVTRD</lebalgrp>
+<cpbalgrp>AMP-11XMVV---------5</cpbalgrp>
+</module>
+</tradeImport>
+</importFile>

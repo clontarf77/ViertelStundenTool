@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="ViertelStdTool.Views.Controls.UserInfoUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="350">
+    <Grid>
+        <Label x:Name="UserIdentifierWinLabel" Content="User Win Login:" Margin="25,0,0,0" FontSize="15" FontWeight="Thin" Height="265" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="UserIdentifierWin" Content="{Binding AppModel.UserIdentifierWinLogin, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Margin="25,25,0,0" FontSize="15" FontWeight="SemiBold" Height="265" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="UserIdentifierCredentialsfileLabel" Content="User Credential-File:" Margin="25,75,0,0" FontSize="15" FontWeight="Thin" Height="265" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="UserIdentifierCredentialsfile" Content="{Binding AppModel.UserIdentifierCredentials, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Margin="25,100,0,0" FontSize="15" FontWeight="SemiBold" Height="240" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="AligeUserCredentialsfileLabel" Content="Aligne User Credential-File:" Margin="25,125,0,0" FontSize="15" FontWeight="Thin" Height="265" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="AligneUserCredentialsfile" Content="{Binding AppModel.AlignUserCredentials, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Margin="25,150,0,0" FontSize="15" FontWeight="SemiBold" Height="215" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="PathAligneCredentialsfileLabel" Content="Path Credential-File" Margin="25,225,0,0" FontSize="15" FontWeight="Thin" Height="165" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="PathAligneCredentialsfile" Content="...\Documents\Aligne" Margin="25,250,0,0" FontSize="15" FontWeight="SemiBold" Height="165" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="NameAligneCredentialsfileLabel" Content="Name Credential-File" Margin="25,275,0,0" FontSize="15" FontWeight="Thin" Height="165" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+        <Label x:Name="NameAligneCredentialsfile" Content="{Binding AppModel.NameAligneCredentialFile, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Margin="25,300,0,0" FontSize="15" FontWeight="SemiBold" Height="165" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300"/>
+    </Grid>
+</UserControl>
